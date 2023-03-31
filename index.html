@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Proyecto Final Canepa Joaquin</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="/logo.jpg" alt="" width="100" height="40" class="d-inline-block align-text-top">
+            Carrito de compras
+        </a>
+        </div>
+    </nav>
+    <div>
+        <h3>Productos Disponibles:</h3>
+    </div>
+<div class="row" id="contenedorProductos"></div>
+
+<div class="contenedorProductos" id="productos">
+    <section class="shopping-cart">
+        <div class="container">
+            <h1 class="text-center">Carrito</h1>
+            <div id="divDolar"></div>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>>
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total </p>
+                        <p class="ml-4 mb-0 shoppingCartTotal"> $ 0</p>
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                        </div>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<footer>
+    <div class="container_footer">
+        <div class="box__footer">
+            <h2>Ayuda</h2>
+                <a href="./error404.html">Contacto</a>
+                <a href="./error404.html">Comprar</a>
+                <a href="./error404.html">Desktop Desarrollo</a>
+                <a href="./error404.html">Android Desarrollo</a>
+        </div>
+        <div class="box__footer">
+            <h2>Acerca de</h2>
+                <a href="#">¿Quienes somos?</a>
+                <a href="./error404.html">preguntas frecuentes</a>
+                <a href="./error404.html">Procesos</a>
+                <a href="./error404.html">Ubicacion</a>
+        </div>
+        <div class="box__footer">
+            <h2>Redes Sociales</h2>
+                <a class="facebook fa-brands fa-facebook-square"  href="#"> Facebook</a>
+                <a class="Twitter fa-brands fa-twitter-square" href="#"> Twitter</a>
+                <a class="linkedin fa-brands fa-linkedin" href="#"> Linkedin</a>
+                <a class="Instagram fa-brands fa-instagram" href="#"> Instagram</a>
+        </div>
+    </div>
+    <div class="box__copyright">
+        <hr>
+        <p>Todos los derechos reservados. Pagina sin fines de lucro</p>
+        <b>Joaquin Canepa</b>
+        
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
